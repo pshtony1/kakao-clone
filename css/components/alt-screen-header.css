@@ -1,0 +1,41 @@
+.alt-header {
+  margin-top: 26px;
+  padding: 25px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.alt-header__title {
+  font-size: 28px;
+  font-weight: 600;
+  margin: 0 auto;
+}
+
+.alt-header__column:first-child {
+  margin-right: auto;
+}
+
+.alt-header__column:last-child {
+  margin-left: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.alt-header__column:nth-child(2) {
+  width: 70%;
+  text-align: center;
+}
+
+.alt-header__column > a {
+  cursor: pointer;
+}
+
+.alt-header__column > span:last-child {
+  margin-left: 20px;
+}
+
+.alt-header__column {
+  width: 15%;
+}
