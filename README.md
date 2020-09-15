@@ -1,2 +1,2 @@
-# kokoa-clone
- kokoa
+# kakao-clone
+ KaKao Talk Clone Coding
